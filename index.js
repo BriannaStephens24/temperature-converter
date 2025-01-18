@@ -41,4 +41,4 @@ if (fahrenheitInput < 32) {
 returns the temperature and the how it feels*/
 // push to gitub 
 
-alert (`It is ${celsiusTemp} Celsius! ${describeTemperature(fahrenheitInput)}`);
+alert (`It is ${celsiusTemp} degrees Celsius! ${describeTemperature(fahrenheitInput)}`);
