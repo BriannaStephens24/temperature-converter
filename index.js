@@ -21,16 +21,16 @@ const celsiusTemp = (fahrenheitInput -32) * (5/9)
 < 100             ->           "hot"       
 >= 100            ->        "very hot" 
 */
-const describeTemperature = (fahrenheitInput) => {
-if (fahrenheitInput < 32) {
+const describeTemperature = (arr) => {
+if (arr < 32) {
     return `It's very cold!`
-} else if (fahrenheitInput < 64) {
+} else if (arr < 64) {
   return `It's cold!`
-} else if (fahrenheitInput < 86) {
+} else if (arr < 86) {
   return `It's warm!`
-}  else if (fahrenheitInput < 100) {
+}  else if (arr < 100) {
   return `It's hot!`
-} else if (fahrenheitInput >= 100) {
+} else if (arr >= 100) {
   return `It's very hot!`
 }
 }
@@ -41,4 +41,4 @@ if (fahrenheitInput < 32) {
 returns the temperature and the how it feels*/
 // push to gitub 
 
-alert (`It is ${celsiusTemp} degrees Celsius! ${describeTemperature(fahrenheitInput)}`);
+alert (`It is ${celsiusTemp} degrees celcius! ${describeTemperature(fahrenheitInput)}`);
